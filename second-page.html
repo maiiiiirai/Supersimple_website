@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrapbook page</title>
+    <link rel="stylesheet" href="style2.css">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sky">
+    <div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+<div class="snowflake"></div>
+
+</div>
+<div class="sky">
+  <div class="cloud"></div>
+  <div class="cloud"></div>
+  <div class="cloud"></div>
+  <div class="cloud"></div>
+  <div class="cloud"></div>
+</div>
+
+    <header>
+        <h1 >Irene's Scrapbook</h1>
+
+        <div class ="banner">
+          <div class="navbar">
+            <i class='bx bxs-florist'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-cloud'></i>
+            </div>
+
+<!--Note section-->
+            <section class="section">
+              <h2>Welcome Note </h2>
+              <p class="sticky-note"> <p>Hi, I'm <span class="highlight">Irene Mae Cartaciano</span>!</p>
+              <p>I'm 19 years old and I was born under the zodiac sign <span class="highlight">Virgo</span> on <span class="highlight">August 31, 2005</span>.</p>
+              <p>I live in <span class="highlight">Brgy. Paraiso, Sagay City, Negros Occidental</span>, where I enjoy the peaceful surroundings.</p>
+              <p>Currently, I am a student at <span class="highlight">SUNN under the college of CICTE</span>, pursuing a <span class="highlight">Bachelor of Science in Information Systems (BSIS)</span>.</p>
+              <p>This scrapbook is a reflection of my learning journey in HTML and CSS, where I get to showcase my creativity and passion for web development.</p>
+          </section>
+
+                <!--Gallery Section 1-->
+                <section class="section">
+                  <h2>Pics of the Owner</h2>
+                 
+                  <div class="Irene">
+                    <a href="https://www.youtube.com/watch?v=eVli-tstM5E">
+                      <img src="irene1.jpg" alt="Photo 1.1" class="photo">
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=KEG7b851Ric">
+                     <img src="irene6.jpg" alt="Photo 6.6" class="photo"></a>
+                     <a href="https://www.youtube.com/watch?v=Xvz0E5OEFV0">
+                      <img src="irene5.jpg" alt="Photo 5.5" class="photo"></a>
+                      <a href="https://www.youtube.com/watch?v=xaPNR-_Cfn0">
+                      <img src="bday_babe.jpeg.jpg" alt="Photo 7.7" class="photo"></a>
+                       <img src="irene2.jpg" alt="Photo 2.2" class="photo">
+                       <h4> each have a song!</h4>
+                  </div>
+              </section>
+
+
+          <!--Gallery Section 1-->
+          <section class="section">
+            <h2>Fav Moments</h2>
+            <div class="gallery1">
+ <img src="family.jpeg" alt="Photo 1" class="photo">
+                <img src="mybaby.jpg" alt="Photo 2" class="photo">
+                <img src="babies.jpg" alt="Photo 3" class="photo">
+                <img src="febyandfeia.jpg" alt="Photo 4" class="photo">
+                <img src="elon.jpg" alt="Photo 5" class="photo">
+                <img src="friends!.jpeg.jpg" alt="Photo 6" class="photo">
+                <img src="jerol.jpg" alt="Photo 7" class="photo">
+                <img src="more.jpeg.jpg" alt="Photo 8" class="photo">
+                <img src="justin.jpg" alt="Photo 9" class="photo">
+                <img src="archell.jpg" alt="Photo 10" class="photo">
+            </div>
+        </section>
+        
+
+
+        <section class="section">
+          <h2>Foodie pics :3 </h2>
+          <div class="Irene"> 
+              <a href="https://cafeamiesagay.wixsite.com/6122">
+               <img src="food1.jpg" alt="Photo 2" class="photo">
+</a>
+                <img src="food2.jpg" alt="Photo 3" class="photo">
+                <a href="https://cafeamiesagay.wixsite.com/6122">
+                <img src="food3.jpg" alt="Photo 4" class="photo">
+                  </a>
+                <img src="food4.jpg" alt="Photo 5" class="photo">
+
+               
+                <img src="food5.jpg" alt="Photo 6" class="photo">
+                  <a href="https://web.facebook.com/PATtawhay/?_rdc=1&_rdr">
+                <img src="food6.jpg" alt="Photo 7" class="photo"> </a>
+
+                <img src="food7.jpg" alt="Photo 8" class="photo">
+
+                <img src="food8.jpg" alt="Photo 9" class="photo">
+
+                <img src="food9.jpg" alt="Photo 10" class="photo">
+
+                <img src="food10.jpg" alt="Photo 11" class="photo">
+              </div>
+      </section>
+
+
+        <section class="section">
+          <h2>Quotes</h2>
+          <blockquote class="quote">"First, solve the problem. Then, write the code."</blockquote>
+          <blockquote class="quote">"Due Tomorrow,do Tomorrow"</blockquote>
+      </section>
+
+      <div class="content">
+        <div>
+          <button id="backButton" type="button" onclick="goBack()">Back</button>
+        </div>
+      </div>
+      <script>
+        function goBack() {
+          window.location.href = "Scrapbook_Cartaciano.html"; // Replace "login.html" with the actual path to your login page
+        }
+      </script>
+        <script>
+          document.addEventListener("DOMContentLoaded", () => {
+              const photos = document.querySelectorAll(".photo");
+              const body = document.body;
+      
+              photos.forEach(photo => {
+                  photo.addEventListener("click", () => {
+                      // Create fullscreen div
+                      const fullscreenDiv = document.createElement("div");
+                      fullscreenDiv.classList.add("fullscreen");
+      
+                      // Clone the clicked photo
+                      const fullPhoto = photo.cloneNode();
+                      fullscreenDiv.appendChild(fullPhoto);
+      
+                      // Append fullscreen div to body
+                      body.appendChild(fullscreenDiv);
+      
+                      // Close fullscreen on click
+                      fullscreenDiv.addEventListener("click", () => {
+                          fullscreenDiv.remove();
+                      });
+                  });
+              });
+          });
+      </script>
+    <footer>
+      <pre>Designed with love and creativity.  © 2024 Irene's Scrapbook</pre>
+    </footer>
+</body>
+</html>
